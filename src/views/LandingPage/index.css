@@ -1,0 +1,22 @@
+.lp-profilesection {
+    margin-top: 40px;
+    padding: 5%;
+    display: flex;
+}
+.lp-text {
+    font-size: 40px;
+    font-family: "Indie Flower", cursive;
+    width: 850px;
+    display: inline;
+    padding-top: 100px;
+}
+.lp-profile-photo {
+    margin: 0%;
+    padding-left: 80px;
+}
+img {
+    align-self: flex-start;
+    height: 1000px;
+    width: 900px;
+    border-radius: 25px;
+}

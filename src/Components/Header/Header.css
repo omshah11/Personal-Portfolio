@@ -4,7 +4,8 @@
   flex: 1;
   flex-direction: column;
   width: 100%;
-  
+  border-radius: 50px;
+  font-weight:bolder;
 }
 
 .header-top {
@@ -14,7 +15,13 @@
   top: 0;
   position: fixed;
   background-color: #eb6850;
-  border-bottom: 3px;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+.header-top:hover {
+  transition: 1s;
+  box-shadow: 0 0 10px black;
 }
 
 .header-top__logo {
@@ -35,6 +42,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  font-weight:bolder;
 }
 
 .header-top__seperator {

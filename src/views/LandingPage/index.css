@@ -5,11 +5,23 @@
 }
 .lp-text {
     font-size: 40px;
+    padding-left: 25px;
     font-family: 'Roboto Condensed';
     width: 850px;
     display: inline;
     padding-top: 100px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 20px;
+    /* background-color: #D3D3D3; */
 }
+
+.lp-text:hover {
+    background-color: #D3D3D3;
+    transition: 1s;
+    box-shadow: 0 0 10px black;
+}
+
 .lp-profile-photo {
     margin: 0%;
     padding-left: 80px;

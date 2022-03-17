@@ -39,7 +39,6 @@
   
 
   .navbar-item {
-    font-family: 'Roboto Condensed';
     font-weight: 300;
     letter-spacing: 0.2rem;
     display: flex;
@@ -50,6 +49,7 @@
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
+    /* box-shadow: 0 0 10px black; */
   }
 
   .navbar-item:hover {

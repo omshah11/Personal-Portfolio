@@ -15,8 +15,9 @@
   top: 0;
   position: fixed;
   background-color: #eb6850;
-  border-bottom-style: solid;
-  border-width: thick;
+  /* border-bottom-style: solid;
+  border-width: thick; */
+  box-shadow: 0 0 13px black;
 }
 
 .header-top:hover {

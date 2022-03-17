@@ -12,16 +12,16 @@ const Navbar = () => {
         <section className='navbar'>
             <section className='navbar-content'>
                 <a href="/" className="navbar-item">
-                    <Button primary label="About" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px" }} hoverIndicator />
+                    <Button primary label="About" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold'}} hoverIndicator />
                 </a>
                 <a href="/about" className="navbar-item">
-                    <Button primary label="Academics" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px" }} hoverIndicator />
+                    <Button primary label="Academics" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold'}} hoverIndicator />
                 </a>
                 <a href="/portfolio" className="navbar-item">
-                    <Button primary label="Projects" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px" }} hoverIndicator />
+                    <Button primary label="Projects" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold'}} hoverIndicator />
                 </a>
                 <a href="/shop" className="navbar-item">
-                    <Button primary label="Contact" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px" }} hoverIndicator />
+                    <Button primary label="Contact" color={"#000000"} style={{ borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold' }} hoverIndicator />
                 </a>
             </section>
             <section className='navbar-socials'>

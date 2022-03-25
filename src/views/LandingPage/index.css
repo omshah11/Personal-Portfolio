@@ -10,6 +10,7 @@
     width: 850px;
     display: inline;
     padding-top: 100px;
+    color: black;
     /* border-style: solid;
     border-width: thick;
     border-radius: 20px; */
@@ -17,9 +18,11 @@
 }
 
 .lp-text:hover {
-    background-color: #D3D3D3;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
     transition: 1s;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+    border-radius: 20px;
 }
 
 .lp-profile-photo {

@@ -44,11 +44,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 35px;
     color: inherit;
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
+    color: white;
     /* box-shadow: 0 0 10px black; */
   }
 

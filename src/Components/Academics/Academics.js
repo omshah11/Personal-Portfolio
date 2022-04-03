@@ -17,7 +17,7 @@ const Academics = ({subject,description}) => {
     return(
         <div className="container">
 			<Box
-				background="light-2"
+				background="#E5E4E2"
 				round="medium"
 				width="100%"
 				pad="small"
@@ -31,11 +31,12 @@ const Academics = ({subject,description}) => {
 					<Button onClick={() => setOpen(!open)} icon={<Add />} />
 				</Box>
 
-				<Collapsible open={open}>
+				<Collapsible className="acad-collapsible" open={open}>
 					<Box
 						margin={{ top: "small" }}
 						align="start"
 						justify="center"
+                       
 					>
 						<Box margin={{ left: "small" }}>
 							<div className="ans">{description}</div>

@@ -1,13 +1,14 @@
 import './App.css';
 import Header from './Components/Header/index';
 import LandingPage from './views/LandingPage/index';
-import Academics from './Components/Academics/index';
+import AcademicsSection from './views/AcademicsSection';
+import { data } from "./Components/Academics/data";
 function App() {
   return (
     <div className="ApplicationContainer">
       <Header />
       <LandingPage />
-      <Academics />
+      <AcademicsSection data={data}/>
     </div>
   );
 }

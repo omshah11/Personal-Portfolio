@@ -1,7 +1,7 @@
 import { Box } from "grommet";
-//import "./FaqSection.css";
-import Academics from "../Components/Academics/index";
-import { data } from "../Components/Academics/data";
+import "./AcademicsSection.css";
+import Academics from "../../Components/Academics/index";
+import { data } from "../../Components/Academics/data";
 
 const FaqSection = ({data = []}) => {
     function handleOnClick(item) {}

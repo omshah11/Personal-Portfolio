@@ -12,16 +12,16 @@ const Navbar = () => {
         <section className='navbar'>
             <section className='navbar-content'>
                 <a href="/" className="navbar-item">
-                    <Button primary label="About"  color={"#eb6850"} style={{ color: "white", borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold'}} hoverIndicator />
+                    <Button primary label="About"  color={"#eb6850"} style={{ color: "white", borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
                 <a href="/about" className="navbar-item">
-                    <Button primary label="Academics" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold'}} hoverIndicator />
+                    <Button primary label="Academics" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
                 <a href="/portfolio" className="navbar-item">
-                    <Button primary label="Projects" color={"#eb6850"} style={{ color: "white", borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold'}} hoverIndicator />
+                    <Button primary label="Projects" color={"#eb6850"} style={{ color: "white", borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
                 <a href="/shop" className="navbar-item">
-                    <Button primary label="Contact" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold' }} hoverIndicator />
+                    <Button primary label="Contact" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
             </section>
             <section className='navbar-socials'>

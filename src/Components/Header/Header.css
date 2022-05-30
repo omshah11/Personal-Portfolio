@@ -14,11 +14,11 @@
   height: 80px;
   top: 0;
   position: fixed;
-  background-color: black;
+  background: linear-gradient(black, rgb(36, 31, 31))
   /* background-color: #eb6850; */
   /* border-bottom-style: solid;
   border-width: thick; */
-  box-shadow: 0 0 13px black;
+  /* box-shadow: 0 0 13px black; */
 }
 
 .header-top:hover {

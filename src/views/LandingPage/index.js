@@ -10,7 +10,7 @@ const LandingPage = () => {
                 <p className="lp-title">Hi, I am</p>
                 <h2 className="lp-name">OM SHAH</h2>
                 <p>Undergraduate Computer Science student at California State University, Long Beach</p>
-                <p>Expected Graduation: Spring 2024</p>
+                <p>Expected Graduation: Fall 2023</p>
             </div>
             <div className="lp-profile-photo">
                 <img src={logo} alt="Profile"/>

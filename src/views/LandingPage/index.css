@@ -1,0 +1,38 @@
+.lp-profilesection {
+    margin-top: 40px;
+    padding: 5%;
+    display: flex;
+}
+.lp-text {
+    font-size: 40px;
+    padding-left: 25px;
+    font-family: 'Roboto Condensed';
+    width: 850px;
+    display: inline;
+    padding-top: 100px;
+    color: black;
+    /* border-style: solid;
+    border-width: thick;
+    border-radius: 20px; */
+    /* background-color: #D3D3D3; */
+}
+
+.lp-text:hover {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+    border-radius: 20px;
+}
+
+.lp-profile-photo {
+    margin: 0%;
+    padding-left: 100px;
+}
+img {
+    align-self: flex-start;
+    height: 1000px;
+    width: 900px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}

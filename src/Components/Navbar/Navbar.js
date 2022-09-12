@@ -26,7 +26,7 @@ const Navbar = () => {
             </section>
             <section className='navbar-socials'>
                 <a className= "socials-item" href='mailto:om.shah@student.csulb.edu'><FiMail /></a>
-                <a className= "socials-item" href='linkedin.com/in/om-j-shah'><FaLinkedin /></a>
+                <a className= "socials-item" href='https://linkedin.com/in/om-j-shah'><FaLinkedin /></a>
                 <a className= "socials-item" href='https://www.instagram.com/omshah11/'><FaInstagram /></a>
                 <a className= "socials-item" href="https://www.youtube.com/channel/UCz4h5LtIVN186q2iKlvEz0w"><FaYoutube /></a>
             </section>

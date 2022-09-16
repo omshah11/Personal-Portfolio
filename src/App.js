@@ -9,7 +9,7 @@ import {data2} from "./Components/Projects/data";
 import {data3} from "./Components/Certifications/data";
 function App() {
   return (
-    <div className="ApplicationContainer">
+    <div className="ApplicationContainer" width="100%">
       <Header />
       <LandingPage />
       <AcademicsSection data={data}/>

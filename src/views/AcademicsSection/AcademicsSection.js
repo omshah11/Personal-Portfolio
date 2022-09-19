@@ -8,7 +8,7 @@ const FaqSection = ({data = []}) => {
 	return (
 		<section id="faq">
 			<Box margin="medium">
-				<h2 className="faqTitle">ACADEMICS</h2>
+				<h2 className="faqTitle" id="ACADEMICS">ACADEMICS</h2>
 				<div>
 					{data.map(item =>(
 						<div className="acad-item-list">

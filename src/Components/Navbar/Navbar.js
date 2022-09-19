@@ -11,17 +11,17 @@ const Navbar = () => {
     return(
         <section className='navbar'>
             <section className='navbar-content'>
-                <a href="/" className="navbar-item">
+                <a href="#ABOUT" className="navbar-item">
                     <Button primary label="About"  color={"#eb6850"} style={{ color: "white", borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
-                <a href="/about" className="navbar-item">
+                <a href="#ACADEMICS" className="navbar-item">
                     <Button primary label="Academics" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
-                <a href="/portfolio" className="navbar-item">
+                <a href="#PROJECTS" className="navbar-item">
                     <Button primary label="Projects" color={"#eb6850"} style={{ color: "white", borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
-                <a href="/shop" className="navbar-item">
-                    <Button primary label="Contact" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
+                <a href="#CERTIFICATIONS" className="navbar-item">
+                    <Button primary label="Certifications" color={"#eb6850"} style={{  color: "white",borderRadius: "8px", fontSize: "22px", fontFamily: 'Roboto Condensed', fontWeight:'bold', marginRight: '25px'}} hoverIndicator />
                 </a>
             </section>
             <section className='navbar-socials'>

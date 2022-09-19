@@ -1,4 +1,14 @@
-.ApplicationContainer{
+.ApplicationContainer-desktop {
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  zoom: 75%;
+}
+
+.ApplicationContainer-mobile {
   width: 100%;
   height: 10%; 
   display: flex;

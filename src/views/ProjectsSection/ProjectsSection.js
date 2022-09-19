@@ -9,7 +9,7 @@ const ProjectsSection = ({data = []}) => {
 	return (
 		<section id="faq">
 			<Box margin="medium">
-				<h2 className="projectsTitle">PROJECTS</h2>
+				<h2 className="projectsTitle" id="PROJECTS">PROJECTS</h2>
 				<div>
 					{data.map(item =>(
 						<div className="acad-item-list">

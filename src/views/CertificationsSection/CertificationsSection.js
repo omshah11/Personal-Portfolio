@@ -9,7 +9,7 @@ const CertificationsSection = ({data = []}) => {
 	return (
 		<section id="faq">
 			<Box margin="medium">
-				<h2 className="certificationTitle">CERTIFICATIONS</h2>
+				<h2 className="certificationTitle" id="CERTIFICATIONS">CERTIFICATIONS</h2>
 				<div>
 					{data.map(item =>(
 						<div className="acad-item-list">

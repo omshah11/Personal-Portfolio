@@ -5,7 +5,7 @@ import "./index.css";
 //import LandingPageWrapper from "./Wrapper";
 
 const LandingPage = () => {
-    const isMobile = useMediaQuery({ query: '(max-width: 1450px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 1451px)' });
     const textStyle = isMobile ? 'text-mobile' : 'text-desktop';
     const profilePhoto = isMobile ? 'profilePhoto-mobile' : 'profilePhoto-desktop';
     return(

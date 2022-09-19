@@ -9,7 +9,7 @@ import { data } from "./Components/Academics/data";
 import {data2} from "./Components/Projects/data";
 import {data3} from "./Components/Certifications/data";
 function App() {
-  const isMobile = useMediaQuery({ query: '(max-width: 1450px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 1451px)' });
   const ApplicationStyle = isMobile ? 'ApplicationContainer-mobile' : 'ApplicationContainer-desktop';
   return (
     <section className={ApplicationStyle} width="100%">

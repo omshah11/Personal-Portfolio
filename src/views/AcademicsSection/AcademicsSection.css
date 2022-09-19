@@ -1,11 +1,25 @@
-.faqTitle {
+.faqTitle-desktop {
     text-align: center;
     font-size: 40px;
     font-family: 'Roboto Condensed';
 }
 
-.acad-item-list {
+.faqTitle-mobile {
+    text-align: center;
+    font-size: 28px;
+}
+
+.acad-item-list-desktop {
     font-size: 20px;
     font-family: 'Roboto Condensed';
 }
 
+.acad-item-list-mobile {
+    font-size: 10px;
+    font-family: 'Roboto Condensed';
+}
+
+.displayStyle-mobile {
+    width: 340px;
+    align-self: center;
+}

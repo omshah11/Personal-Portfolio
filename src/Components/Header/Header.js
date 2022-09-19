@@ -1,13 +1,16 @@
 import React from "react";
+import useMediaQuery from "react-responsive";
 import Navbar from "../Navbar/index";
 import {Button} from "grommet"
 import "./Header.css";
 
 
 const Header = () => {
+    const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });
+    const headerTop = isMobile ? 'header-top-mobile' : 'header-top-desktop';
     return (
         <section className="header">
-            <section className="header-top">
+            <section className={headerTop}>
                 <section className="header-top__logo">
                     <a href="/" className="header-logo">
                         OM SHAH

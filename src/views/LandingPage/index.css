@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
 }
-.lp-text {
+.lpText-desktop {
     font-size: 40px;
     padding-left: 25px;
     font-family: 'Roboto Condensed';
@@ -23,7 +23,29 @@
     /* background-color: #D3D3D3; */
 }
 
-.lp-text:hover {
+.lpText-mobile {
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+    padding-left: 20px;
+    width: 340px;
+    display: inline;
+    padding-top: 100px;
+    color: black;
+    /* border-style: solid;
+    border-width: thick;
+    border-radius: 20px; */
+    /* background-color: #D3D3D3; */
+}
+
+.lpText-desktop:hover {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+    border-radius: 20px;
+}
+
+.lpText-mobile:hover {
     background-color: rgba(0, 0, 0, 0.904);
     color: white;
     transition: 1s;
@@ -38,11 +60,22 @@
 
 .profilePhoto-mobile {
     padding-top: 50px;
+    width: 340px;
+    height: 800px;
+    align-self: center;
 }
-img {
+.img-desktop {
     align-self: flex-start;
     height: 1000px;
     width: 900px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+
+.img-mobile {
+    align-self: flex-start;
+    height: 700px;
+    width: 335px;
     border-radius: 25px;
     box-shadow: 0 0 20px black;
 }

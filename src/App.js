@@ -8,16 +8,18 @@ import Certifications from './views/CertificationsSection/CertificationsSection'
 import { data } from "./Components/Academics/data";
 import {data2} from "./Components/Projects/data";
 import {data3} from "./Components/Certifications/data";
-function App() {
-  const isMobile = useMediaQuery({ query: '(max-width: 1451px)' });
+const App = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });
   const ApplicationStyle = isMobile ? 'ApplicationContainer-mobile' : 'ApplicationContainer-desktop';
   return (
-    <section className={ApplicationStyle} width="100%">
-      <Header />
-      <LandingPage />
-      <AcademicsSection data={data}/>
-      <Projects data = {data2}/>
-      <Certifications data = {data3}/>
+    <section>
+      <div className={ApplicationStyle}>
+        <Header />
+        <LandingPage />
+        <AcademicsSection data={data}/>
+        <Projects data = {data2}/>
+        <Certifications data = {data3}/>
+      </div>
     </section>
   );
 }
